@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\uliss\\Downloads\\Biblioteca\\Biblioteca.csproj": {}
+    "C:\\Users\\uliss\\Desktop\\Biblioteca\\Biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\uliss\\Downloads\\Biblioteca\\Biblioteca.csproj": {
+    "C:\\Users\\uliss\\Desktop\\Biblioteca\\Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\uliss\\Downloads\\Biblioteca\\Biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\uliss\\Desktop\\Biblioteca\\Biblioteca.csproj",
         "projectName": "Biblioteca",
-        "projectPath": "C:\\Users\\uliss\\Downloads\\Biblioteca\\Biblioteca.csproj",
+        "projectPath": "C:\\Users\\uliss\\Desktop\\Biblioteca\\Biblioteca.csproj",
         "packagesPath": "C:\\Users\\uliss\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uliss\\Downloads\\Biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\uliss\\Desktop\\Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\uliss\\AppData\\Roaming\\NuGet\\NuGet.Config"
