@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using System;
+using System.Collections.Generic;
 
 namespace Biblioteca.Controllers
 {
-    
+
     public class EmprestimoController : Controller
     {
         public IActionResult Cadastro()
@@ -25,10 +26,11 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Cadastro(CadEmprestimoViewModel viewModel)
         {
-            if(!string.IsNullOrEmpty(viewModel.Emprestimo.NomeUsuario)){
+            if (!string.IsNullOrEmpty(viewModel.Emprestimo.NomeUsuario))
+            {
                 EmprestimoService emprestimoService = new EmprestimoService();
-                
-                if(viewModel.Emprestimo.Id == 0)
+
+                if (viewModel.Emprestimo.Id == 0)
                 {
                     emprestimoService.Inserir(viewModel.Emprestimo);
                 }
@@ -38,7 +40,8 @@ namespace Biblioteca.Controllers
                 }
                 return RedirectToAction("Listagem");
             }
-            else{
+            else
+            {
                 ViewData["mensagem"] = "Você deve preencher todos os campos";
 
                 LivroService livroService = new LivroService();
@@ -52,9 +55,10 @@ namespace Biblioteca.Controllers
             }
         }
 
-        public IActionResult Listagem(string tipoFiltro, string filtro)
+        public IActionResult Listagem(string tipoFiltro, string filtro, string itensPorPagina, int NumDaPagina, int PaginaAtual)
         {
             Autenticacao.CheckLogin(this);
+
             FiltrosEmprestimos objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))
             {
@@ -62,6 +66,9 @@ namespace Biblioteca.Controllers
                 objFiltro.Filtro = filtro;
                 objFiltro.TipoFiltro = tipoFiltro;
             }
+                ViewData["EmprestimosPorPagina"] = (string.IsNullOrEmpty(itensPorPagina) ? 10 : Int32.Parse(itensPorPagina));
+                ViewData["PaginaAtual"] = (PaginaAtual !=0 ? PaginaAtual : 1);
+
             EmprestimoService emprestimoService = new EmprestimoService();
             return View(emprestimoService.ListarTodos(objFiltro));
         }
@@ -77,7 +84,7 @@ namespace Biblioteca.Controllers
             cadModel.Livros = livroService.ListarDisponiveis();
             cadModel.Livros.Add(livroService.ObterPorId(e.LivroId));
             cadModel.Emprestimo = e;
-            
+
             return View(cadModel);
         }
     }

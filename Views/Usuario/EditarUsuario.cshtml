@@ -1,0 +1,26 @@
+@model Usuario
+
+<div class="row justify-content-md-center">
+    <form action="editarUsuario" method="POST">
+
+        <div class="form-group">
+            <input type="text" name="Nome" id="userNome" class="form-control" value="@Model.Nome">
+        </div>
+        <div class="form-group">
+            <input type="text" name="Login" id="userLogin" class="form-control" value="@Model.Login">
+        </div>
+        <div class="form-group">
+            <input type="text" name="Senha" id="userSenha" class="form-control" value="@Model.Senha">
+        </div>
+        <div class="form-group">
+            <select name="Tipo" id="userTipo" class="form-control">
+                <option value="@Usuario.ADMIN">Administrador</option>
+                <option value="@Usuario.PADRAO">Padrão</option>
+            </select>
+        </div>
+
+        <input type="hidden" asp-for="Id" />
+
+        <input type="submit" value="Concluir edição"/>
+    </form>
+</div>

@@ -53,7 +53,6 @@ C:\Users\uliss\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\uliss\Downloads\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Biblioteca.exe
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Biblioteca.deps.json
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Biblioteca.runtimeconfig.json
@@ -70,7 +69,6 @@ C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\uliss\Desktop\Biblioteca\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
-C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.csprojAssemblyReference.cache
 C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.AssemblyInfoInputs.cache
 C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.AssemblyInfo.cs
 C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.csproj.CoreCompileInputs.cache
@@ -104,3 +102,12 @@ C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\staticwebassets\Biblio
 C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.csproj.AssemblyReference.cache
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\scopedcss\bundle\Biblioteca.styles.css
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\CadastroRealizado.cshtml.g.cs
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\EditarUsuario.cshtml.g.cs
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ExcluirUsuario.cshtml.g.cs
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\ListagemDeUsuarios.cshtml.g.cs
+C:\Users\uliss\Desktop\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\NeedAdmin.cshtml.g.cs
